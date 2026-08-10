@@ -1,0 +1,14 @@
+[project]
+name = "rag-qa-boat"
+version = "0.1.0"
+description = "This project will check document and based on that it will reply to end user"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.5.3",
+    "langchain-ollama>=1.1.0",
+    "pypdf>=6.14.2",
+    "streamlit>=1.61.1",
+]
